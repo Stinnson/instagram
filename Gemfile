@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
+gem "devise"
 # gem 'mini_magick', '~> 4.8'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
