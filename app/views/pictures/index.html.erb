@@ -1,1 +1,6 @@
-<h1>placeholder!</h1>
+<% @pics.each do |pic| %>
+  <h2><%= link_to pic.title, picture_path(pic) %></h2>
+  <p><%= time_ago_in_words(pic.created_at) %> ago </p>
+<% end %>
+
+<%= link_to "Upload a new picture", new_picture_path %>
